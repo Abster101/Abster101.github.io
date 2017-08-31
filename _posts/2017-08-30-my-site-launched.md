@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: minimal
 title: "First Post"
 date: 2017-08-03
 ---
