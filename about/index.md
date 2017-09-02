@@ -2,6 +2,8 @@
 
 I've created this reasearch page to highlight my research and graduate experience. It will continue to be updated as I go through the process. 
 
+![headshot](https://abster101.github.io/images/IMG_5935.CR2.jpg)
+
 Email: aakanni@tulane.edu
 
 Phone: (301) 8018420
