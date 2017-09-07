@@ -2,7 +2,9 @@
 
 I've created this reasearch page to highlight my research and graduate experience. It will continue to be updated as I go through the process. 
 
-<img src="https://abster101.github.io/images/IMG_5935.CR2.jpg" style="height:5px"/>
+
+<!-- type="css" href="/css/main.css"> -->
+<img src="https://abster101.github.io/images/IMG_5935.CR2.jpg" class="im"/>
 
 Email: aakanni@tulane.edu
 
