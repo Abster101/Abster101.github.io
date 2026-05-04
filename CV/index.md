@@ -1,2 +1,140 @@
 
-# to-do add my CV to this page  
+---
+layout: default
+title: CV
+---
+
+<div class="container">
+    <section>
+        <h2>Curriculum Vitae</h2>
+        <p><strong>Abiola Akanni</strong> | Senior Software & Distributed Systems Engineer</p>
+        <p><strong>Email:</strong> abiola.ace1@gmail.com | <strong>LinkedIn:</strong> linkedin.com/in/aakanni | <strong>Location:</strong> Washington DC-Baltimore Area</p>
+    </section>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Results-driven Senior Software Engineer and Distributed Systems specialist with 8+ years of experience building and optimizing large-scale, high-availability backend services. Expert in Python development, Apache Spark/Kafka data pipelines, AWS cloud architecture, and scalable system design. Proven track record at NASA and NOAA delivering mission-critical systems for scientific and aerospace applications.</p>
+    </section>
+
+    <section>
+        <h2>Core Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Python, REST APIs, Microservices, SOA, Event-Driven Architecture</p>
+            </div>
+            <div class="skill-card">
+                <h3>Big Data & Streaming</h3>
+                <p>Apache Spark, Apache Kafka, ETL Pipelines, Data Processing</p>
+            </div>
+            <div class="skill-card">
+                <h3>Cloud & DevOps</h3>
+                <p>AWS, Docker, CI/CD, Cloud9, VPC/VPN, Infrastructure as Code</p>
+            </div>
+            <div class="skill-card">
+                <h3>Database & Data</h3>
+                <p>SQL, Relational Databases, Data Integrity, Query Optimization</p>
+            </div>
+            <div class="skill-card">
+                <h3>System Design</h3>
+                <p>Scalable Architecture, High-Availability Systems, Performance Optimization</p>
+            </div>
+            <div class="skill-card">
+                <h3>Leadership</h3>
+                <p>Technical Mentoring, Code Review, Team Leadership, Process Improvement</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        
+        <div class="card">
+            <h3>Senior Software Engineer | NASA - National Aeronautics and Space Administration</h3>
+            <p><strong>December 2019 - Present (6+ years)</strong> | Remote</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Architected and developed core Python backend services and RESTful APIs for aerospace software, enabling critical connectivity between modules</li>
+                <li>Engineered and optimized high-throughput data pipelines using distributed systems to manage and process large scientific datasets with low-latency operation</li>
+                <li>Spearheaded cloud development on AWS, leveraging Cloud9 and Docker containerization for scalable application deployment</li>
+                <li>Drove Service-Oriented Architecture (SOA) design, transforming requirements into reusable, deployable code components</li>
+                <li>Developed Vue web applications for resource visualization, scheduling, and management</li>
+                <li>Implemented ETL pipelines processing 10M+ data points from rover telemetry for increased agent automation</li>
+                <li>Contributed to system optimization for satellite communication protocols using VPC/VPN knowledge</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Student Trainee (Computer Science) | NASA Ames Research Center</h3>
+            <p><strong>July 2018 - Present (7+ years)</strong> | Mountain View, California</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Designed and implemented Python scripts automating manual data validation, reducing weekly review time by 6+ hours</li>
+                <li>Managed and maintained relational datasets with focus on data integrity and cleansing</li>
+                <li>Developed SQL queries extracting performance metrics from operational databases</li>
+                <li>Analyzed system pain points and proposed process improvements for automated mission solutions</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Software Engineer Backend | NOAA - National Oceanic & Atmospheric Administration</h3>
+            <p><strong>July 2015 - August 2017 (2+ years)</strong></p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Designed and implemented robust backend systems for VIIRS initiative using event-driven architecture</li>
+                <li>Processed and visualized large-scale scientific data for global environmental monitoring</li>
+                <li>Assisted with AWS cloud migration strategy, creating detailed migration plans</li>
+                <li>Implemented foundational DevOps concepts ensuring operational efficiency and scalability</li>
+                <li>Refined development practices through weekly code review process, reducing post-release defects by 20%</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Graduate Teaching Assistant | Tulane University</h3>
+            <p><strong>August 2017 - May 2019 (1+ years)</strong> | Greater New Orleans Area</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Facilitated weekly meetings with students to review lessons and provide guidance</li>
+                <li>Troubleshot code and configuration issues across Windows, MacOS, and Linux environments</li>
+                <li>Reviewed, commented, and refactored Python code in accordance with best practices</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Master's Degree in Computer Science</h3>
+                <p><strong>Tulane University</strong> (2017 - 2019)</p>
+            </div>
+            <div class="card">
+                <h3>Bachelor of Arts in Computer Science</h3>
+                <p><strong>St. Mary's College of Maryland</strong> (2011 - 2015)</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <p>Spanish, Yoruba</p>
+    </section>
+
+    <section>
+        <h2>Key Achievements</h2>
+        <ul style="margin-left: 20px;">
+            <li>Reduced manual data validation time by 6+ hours weekly through Python automation</li>
+            <li>Implemented code review processes reducing post-release defects by 20%</li>
+            <li>Built ETL pipelines processing 10M+ data points from rover telemetry</li>
+            <li>Led AWS cloud migration and DevOps initiatives at NOAA</li>
+            <li>Architected scalable SOA systems for mission-critical aerospace applications at NASA</li>
+        </ul>
+    </section>
+</div>
+
+<style>
+.card ul {
+    list-style-type: disc;
+}
+
+.card li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+</style>  
