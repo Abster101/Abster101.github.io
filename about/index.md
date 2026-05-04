@@ -6,82 +6,67 @@ title: Experience
 <div class="container">
     <section>
         <h2>About Me</h2>
-        <p>I'm a Senior Software Engineer and Distributed Systems specialist with 8+ years of professional experience building and optimizing large-scale, high-availability backend services. Based in the Washington DC-Baltimore Area, I've had the privilege of working on mission-critical systems at organizations like NASA and NOAA.</p>
-        <p>My passion lies in solving complex engineering problems through scalable, well-architected solutions. I'm deeply experienced in Python development, distributed systems design, cloud architecture, and big data technologies. I believe in writing clean, maintainable code and fostering strong technical teams.</p>
+        <p>I am a Senior Software Engineer focused on scalable backend systems, distributed data pipelines, and automation for scientific and aerospace applications. I blend software engineering with systems thinking to build resilient services that support high-impact missions.</p>
+        <p>Across NASA and NOAA, I have guided technical decisions, designed cloud-ready architectures, and improved operational workflows through automation and strong engineering practices.</p>
     </section>
 
     <section>
-        <h2>Professional Summary</h2>
-        <p>Results-driven Senior Software Engineer and Distributed Systems specialist with 8+ years of experience building and optimizing large-scale, high-availability backend services at NASA and NOAA.</p>
-        <p>My core expertise is in Python development and engineering robust data pipelines using Apache Spark and Apache Kafka to handle massive volumes of scientific and aerospace data. I focus on developing scalable Service-Oriented Architectures (SOA) and RESTful APIs that enable seamless communication between critical systems.</p>
-        <p>Proven expertise in the full software development lifecycle, from system design and requirements gathering to cloud deployment on AWS using Docker and CI/CD workflows.</p>
-    </section>
-
-    <section>
-        <h2>Core Expertise</h2>
+        <h2>Technical Expertise</h2>
         <div class="skills-grid">
             <div class="skill-card">
-                <h3><i class="fab fa-python"></i> Python</h3>
-                <p>Backend services, data pipelines, automation</p>
+                <h3><i class="fab fa-python"></i> Python Engineering</h3>
+                <p>Backend services, automation, data processing</p>
             </div>
             <div class="skill-card">
-                <h3><i class="fas fa-cloud"></i> AWS & Cloud</h3>
-                <p>EC2, Docker, VPC/VPN, Cloud9, CI/CD</p>
+                <h3><i class="fas fa-cloud"></i> AWS & DevOps</h3>
+                <p>Cloud deployment, Docker, CI/CD, VPC/VPN</p>
             </div>
             <div class="skill-card">
-                <h3><i class="fas fa-database"></i> Big Data Technologies</h3>
-                <p>Apache Spark, Apache Kafka, ETL pipelines</p>
+                <h3><i class="fas fa-stream"></i> Distributed Systems</h3>
+                <p>Kafka, Spark, SOA, event-driven architecture</p>
             </div>
             <div class="skill-card">
-                <h3><i class="fas fa-code"></i> Backend Development</h3>
-                <p>REST APIs, SOA, Microservices, Vue.js</p>
-            </div>
-            <div class="skill-card">
-                <h3><i class="fas fa-database"></i> SQL & Databases</h3>
-                <p>Query optimization, data integrity, relational databases</p>
-            </div>
-            <div class="skill-card">
-                <h3><i class="fas fa-network-wired"></i> System Design</h3>
-                <p>Scalable architectures, high-availability systems, network protocols</p>
+                <h3><i class="fas fa-database"></i> Data Engineering</h3>
+                <p>SQL, ETL pipelines, data validation, performance tuning</p>
             </div>
         </div>
     </section>
 
     <section>
-        <h2>Professional Experience</h2>
+        <h2>Experience</h2>
         <div class="card-grid">
             <div class="card">
-                <h3><i class="fas fa-rocket"></i> NASA - Senior Software Engineer</h3>
-                <p><strong>Dec 2019 - Present (6+ years)</strong></p>
-                <p>Architected Python backend services and RESTful APIs for aerospace software. Engineered high-throughput data pipelines processing large scientific datasets. Led cloud development on AWS with Docker containerization. Designed Service-Oriented Architecture transforming requirements into reusable components.</p>
+                <h3>NASA - Senior Software Engineer</h3>
+                <p><strong>Dec 2019 - Present</strong></p>
+                <p>Designed and implemented Python backend services and REST APIs for aerospace applications. Built data pipelines to process large scientific datasets and containerized deployments using Docker and AWS. Collaborated with SMEs to turn complex requirements into reusable, mission-ready software.</p>
             </div>
             <div class="card">
-                <h3><i class="fas fa-satellite"></i> NOAA - Software Engineer Backend</h3>
-                <p><strong>Jul 2015 - Aug 2017 (2+ years)</strong></p>
-                <p>Designed and implemented robust backend systems for VIIRS initiative using event-driven architecture. Assisted with AWS cloud migration strategy. Implemented code review processes reducing post-release defects by 20%.</p>
+                <h3>NOAA - Software Engineer Backend</h3>
+                <p><strong>Jul 2015 - Aug 2017</strong></p>
+                <p>Developed backend systems for the VIIRS scientific data initiative. Supported AWS migration planning, introduced DevOps practices, and reduced defects by establishing a structured code review process.</p>
             </div>
             <div class="card">
-                <h3><i class="fas fa-graduation-cap"></i> Tulane University - Graduate Teaching Assistant</h3>
-                <p><strong>Aug 2017 - May 2019 (1+ years)</strong></p>
-                <p>Facilitated weekly student meetings, provided guidance, and reviewed Python code in accordance with best practices.</p>
+                <h3>Tulane University - Graduate Teaching Assistant</h3>
+                <p><strong>Aug 2017 - May 2019</strong></p>
+                <p>Mentored students in programming and systems design. Troubleshot cross-platform issues and guided learners through Python best practices.</p>
             </div>
         </div>
     </section>
 
     <section>
-        <h2>Key Accomplishments</h2>
+        <h2>Impact & Accomplishments</h2>
         <div class="card-grid">
             <div class="card">
-                <h3><i class="fas fa-chart-line"></i> Data Processing at Scale</h3>
-                <p>Implemented ETL pipelines processing 10M+ data points from rover telemetry for increased agent automation.</p>
+                <h3>Mission Data Solutions</h3>
+                <p>Built ETL workflows processing more than 10M rover telemetry data points, enabling faster automation and analytics for operational teams.</p>
             </div>
             <div class="card">
-                <h3><i class="fas fa-clock"></i> Efficiency Improvements</h3>
-                <p>Designed Python automation scripts reducing weekly manual data validation by 6 hours (50% reduction).</p>
+                <h3>Automation Efficiency</h3>
+                <p>Delivered Python automation that reduced manual data validation by 6 hours per week, freeing engineers to focus on higher-value work.</p>
             </div>
             <div class="card">
-                <h3><i class="fas fa-bug"></i> Quality Assurance</h3>
-                <p>Implemented code review processes reducing post-release defects and downtime by 20%.</p>
+                <h3>Reliability Improvements</h3>
+                <p>Introduced development and review workflows at NOAA that cut post-release defects and downtime by 20%.</p>
             </div>
         </div>
     </section>
@@ -90,26 +75,12 @@ title: Experience
         <h2>Education</h2>
         <div class="card-grid">
             <div class="card">
-                <h3>Master's Degree - Computer Science</h3>
-                <p><strong>Tulane University</strong> (2017 - 2019)</p>
+                <h3>Master's Degree, Computer Science</h3>
+                <p>Tulane University (2017 - 2019)</p>
             </div>
             <div class="card">
-                <h3>Bachelor of Arts - Computer Science</h3>
-                <p><strong>St. Mary's College of Maryland</strong> (2011 - 2015)</p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Languages & Additional Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3><i class="fas fa-language"></i> Languages</h3>
-                <p>Spanish, Yoruba</p>
-            </div>
-            <div class="skill-card">
-                <h3><i class="fas fa-handshake"></i> Soft Skills</h3>
-                <p>Mentoring, Training, Technical Leadership</p>
+                <h3>Bachelor of Arts, Computer Science</h3>
+                <p>St. Mary's College of Maryland (2011 - 2015)</p>
             </div>
         </div>
     </section>
