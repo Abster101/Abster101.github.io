@@ -1,8 +1,5 @@
 
----
-layout: default
-title: CV
----
+------
 
 <div class="container">
     <section>
