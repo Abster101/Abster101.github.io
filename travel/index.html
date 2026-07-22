@@ -1,0 +1,99 @@
+---
+layout: default
+title: Travel
+---
+
+<div class="travel-hero">
+    <div class="container">
+        <h1>Travel Stories & Live Routes</h1>
+        <p>Welcome to our travel landing page — designed for family, friends, and fellow explorers. Follow the journey, see photo updates, and get a feel for where we're headed next.</p>
+        <div class="travel-hero-links">
+            <a href="#itinerary" class="btn">See the Plan</a>
+            <a href="#gallery" class="btn btn-alt">View Gallery</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <section id="itinerary">
+        <h2>Current Location</h2>
+        <div class="travel-grid">
+            <div class="travel-card">
+                <h3>Right now</h3>
+                <p>We are sharing live travel updates from the Washington DC-Baltimore area, blending remote work with city walks, food discoveries, and creative stops.</p>
+                <ul>
+                    <li><strong>Where:</strong> Washington DC-Baltimore area</li>
+                    <li><strong>Focus:</strong> hidden gems, local eats, and quality travel time</li>
+                    <li><strong>Stay tuned:</strong> stories, quick updates, and travel tips</li>
+                </ul>
+            </div>
+            <div class="travel-card">
+                <h3>Next 2 months</h3>
+                <p>Planned route for the next weeks. This path is perfect for friends who want to connect or follow along with our travel updates.</p>
+                <ul>
+                    <li><strong>Stop 1:</strong> New York City — city scenes, art, and great food</li>
+                    <li><strong>Stop 2:</strong> Charleston — seaside vibes, history, and quiet work cafes</li>
+                    <li><strong>Stop 3:</strong> Asheville — mountain views, hiking, and creative spaces</li>
+                    <li><strong>Share:</strong> send a note to coordinate meetups or local tips</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Travel Gallery</h2>
+        <div class="travel-grid">
+            <div class="gallery-item">
+                <img src="/images/IMG_5935.CR2.jpg" alt="Travel image placeholder">
+                <div class="caption">
+                    <h3>Sunrise moments</h3>
+                    <p>Capture everyday travel energy, from city views to quiet mornings.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/IMG_5935.CR2.jpg" alt="Travel image placeholder">
+                <div class="caption">
+                    <h3>Local life</h3>
+                    <p>Sharing the best cafes, neighborhoods, and travel rhythms.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/IMG_5935.CR2.jpg" alt="Travel image placeholder">
+                <div class="caption">
+                    <h3>Adventure mode</h3>
+                    <p>Stories built around the road ahead and new places we discover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upload">
+        <h2>Share a Photo</h2>
+        <div class="upload-card">
+            <p>Want to add a travel photo from your own trip? Use the file picker below to preview a picture photo-style.</p>
+            <input type="file" accept="image/*" capture="environment" id="photoUpload">
+            <div class="photo-preview" id="previewContainer">
+                <p>No photo selected yet.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+const uploadInput = document.getElementById('photoUpload');
+const previewContainer = document.getElementById('previewContainer');
+
+uploadInput.addEventListener('change', function () {
+    const file = this.files[0];
+    if (!file) {
+        previewContainer.innerHTML = '<p>No photo selected yet.</p>';
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = function (e) {
+        previewContainer.innerHTML = `<img src="${e.target.result}" alt="Selected travel photo">`;
+    };
+    reader.readAsDataURL(file);
+});
+</script>
