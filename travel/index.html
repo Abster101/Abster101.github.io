@@ -95,7 +95,48 @@ title: Travel
         <div class="travel-summary-card">
             <h2>Travel notes for family & friends</h2>
             <p>Use this page as your travel hub. Share it, update it, and keep your route visible while you move from place to place.</p>
-            <a href="mailto:abiola.ace1@gmail.com" class="btn">Get in touch</a>
+            <a href="#contact-sitter" class="btn">Get in touch</a>
+        </div>
+    </section>
+
+    <section class="page-section" id="contact-sitter">
+        <div class="section-header">
+            <h2>Request House &amp; Pet Sitting</h2>
+            <p>Interested in our house &amp; pet sitting services? Fill out the short form below and we will get back to you.</p>
+        </div>
+        <div class="contact-form-wrap">
+            <form action="https://formsubmit.co/abiola.ace1@gmail.com" method="POST" class="contact-form">
+                <input type="hidden" name="_subject" value="New house & pet sitting request">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Contact email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="phone">Phone (optional)</label>
+                <input id="phone" name="phone" type="tel">
+
+                <label for="location">Location of property</label>
+                <input id="location" name="location" type="text" required>
+
+                <label for="start">Start date</label>
+                <input id="start" name="start_date" type="date" required>
+
+                <label for="end">End date</label>
+                <input id="end" name="end_date" type="date" required>
+
+                <label for="pets">Pets / special instructions</label>
+                <textarea id="pets" name="message" rows="4" placeholder="Types of pets, feeding/schedule, any special care" required></textarea>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn">Send request</button>
+                    <button type="reset" class="btn btn-alt">Reset</button>
+                </div>
+                <p class="privacy-note">By submitting you agree we may contact you about this request. We won't share your details.</p>
+            </form>
         </div>
     </section>
 </div>
